@@ -1,10 +1,10 @@
-import { Button } from "antd";
+import { RootRouter } from "./views/RootRouter";
 
 function App() {
   return (
-    <div>
-      <Button>Hello</Button>
-    </div>
+    <>
+      <RootRouter />
+    </>
   );
 }
 
